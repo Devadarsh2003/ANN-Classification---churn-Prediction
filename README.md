@@ -10,12 +10,12 @@ experiments.ipynb: A Jupyter Notebook for experimenting with different models an
 
 ## Requirements
 To run this application, you need the following Python packages:
-> streamlit
-> numpy
-> pandas
-> tensorflow
-> scikit-learn
-> pickle
+* streamlit
+* numpy
+* pandas
+* tensorflow
+* scikit-learn
+* pickle
 
 You can install the required packages using pip:
 bash
@@ -33,16 +33,16 @@ bash
 
 ## User Input Fields
 The application requires the following inputs to make predictions:
-> Credit Score: Enter a numerical value.
-> Geography: Select from predefined categories.
-> Gender: Choose either Male or Female.
-> Age: Use the slider to select an age between 18 and 48.
-> Tenure: Use the slider to select a tenure between 0 and 10 years.
-> Balance: Enter a numerical value for account balance.
-> Number of Products: Select from 1 to 4 products.
-> Has Credit Card: Choose between Yes (1) or No (0).
-> Is Active Member: Choose between Yes (1) or No (0).
-> Estimated Salary: Enter a numerical value.
+* Credit Score: Enter a numerical value.
+* Geography: Select from predefined categories.
+* Gender: Choose either Male or Female.
+* Age: Use the slider to select an age between 18 and 48.
+* Tenure: Use the slider to select a tenure between 0 and 10 years.
+* Balance: Enter a numerical value for account balance.
+* Number of Products: Select from 1 to 4 products.
+* Has Credit Card: Choose between Yes (1) or No (0).
+* Is Active Member: Choose between Yes (1) or No (0).
+* Estimated Salary: Enter a numerical value.
 
 ## Prediction Output
 After entering the required information, the application will display:
