@@ -4,9 +4,9 @@
 This project implements a customer churn prediction model using machine learning techniques. The application is built with Streamlit, allowing users to input customer data and receive predictions on whether a customer is likely to churn.
 
 ## Files Included
-app.py: The main Streamlit application file that handles user input and displays predictions.
-prediction.ipynb: A Jupyter Notebook containing the prediction logic and model evaluation.
-experiments.ipynb: A Jupyter Notebook for experimenting with different models and parameters.
+* app.py: The main Streamlit application file that handles user input and displays predictions.
+* prediction.ipynb: A Jupyter Notebook containing the prediction logic and model evaluation.
+* experiments.ipynb: A Jupyter Notebook for experimenting with different models and parameters.
 
 ## Requirements
 To run this application, you need the following Python packages:
@@ -18,17 +18,17 @@ To run this application, you need the following Python packages:
 * pickle
 
 You can install the required packages using pip:
-bash
-" pip install streamlit numpy pandas tensorflow scikit-learn" 
-or 
-" pip install requirements.txt "
+
+>" pip install streamlit numpy pandas tensorflow scikit-learn"
+* or
+> " pip install requirements.txt "
 
 ## How to Run the Application
 1. Ensure you have the trained model (model.h5) and necessary pickled files (onehot_encoded_geo.pkl, scalar.pkl, label_encoder_gender.pkl) in the same directory as app.py.
 2. Open a terminal and navigate to the directory containing app.py.
 3. Run the following command:
-bash
- " streamlit run app.py " 
+   
+> " streamlit run app.py " 
 4. The application will open in your default web browser.
 
 ## User Input Fields
